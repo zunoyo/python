@@ -54,4 +54,7 @@ while True:
             print(str,str,str)
 
 print("while문 정상 종료")
+#이 코드 맞음 ? 
         
+
+
