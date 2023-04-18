@@ -74,3 +74,25 @@ print(month)
 month.update({15:'15월'}) #없던 값 추가도 가능 , 있던 값은 수정 
 print(month)
 
+
+#dictionary - tuple - list 변환
+#tuple - 변경불가, 수정불가  (아메,핫초코,라떼)
+#tuple -> list 유자차 추가  - > tuple로 다시 변경
+#list -> tuple 수강신청 전 수강생 변경, -> tuple
+#tuple , list => dictionary (1,2,3,4) , (홍,김,박,이)
+
+seql = ['a','b','c','d'] #list
+seqt = tuple(seql) #list를 tuple로 바꾼 과정
+print(seqt)
+print(type(seqt))
+
+seql2 = list(seqt) #tuple을 다시 list로 변경 
+print(seql2)
+print(type(seql2))
+
+seqd = dict(enumerate(seql))  
+print(seqd)
+print(type(seqd))
+
+
+
