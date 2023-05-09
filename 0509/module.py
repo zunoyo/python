@@ -33,3 +33,8 @@ print("__name__ in module.py   :",__name__)
 
 import zuno 
 
+
+
+
+
+# https://github.com/dongmisw/python_programming 교수님 git
