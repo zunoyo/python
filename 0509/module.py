@@ -35,6 +35,4 @@ import zuno
 
 
 
-
-
 # https://github.com/dongmisw/python_programming 교수님 git
